@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+<style>
+
+/*nav*/
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Helvetica, Arial;
+}
+.contenedor {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid red;
+}
+.logo {
+	border: 1px solid red;
+	width: 50%;
+	padding: 20px;
+}
+.logo > img {
+	width: 250px;
+	heught: 250px;
+	border: 1px solid red;
+}
+.links {
+	width: 50%;
+	border: 1px solid red;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	padding: 20px;
+} 
+.links > a {
+	margin: 0 20px;
+
+}
+/*nav*/
+
+/*header*/
+.header {
+	width: 100%;
+	height: 100vh;
+	border: 1px solid red;
+	background: url('slider.jpeg')no-repeat;
+	background-size: cover;
+}
+.text-header {
+	border: 1px solid red;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	height: 100vh;
+}
+/*header*/
+
+/*seccion1*/
+.secion1 {
+	background: url('doc.jpeg')no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.titulo {
+	padding: 50px 0px;
+}
+.text-secion1 {
+	padding: 50px;
+}
+.link-text-secion1 {
+	padding: 50px;
+}
+/*seccion1*/
+
+/*cards*/
+.cards {
+	display: flex;
+}
+.card-1 {
+	padding: 50px;
+}
+/*cards*/
+
+/*productos*/
+.productos {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	border: 1px solid red;
+}
+.produ-titulo {
+	padding: 50px;
+}
+.contenedor-productos {
+	display: flex;
+	border: 1px solid red;
+} 
+.contenedor-productos-2 {
+	display: flex;
+	border: 1px solid red;
+}
+.produ {
+	padding: 20px;
+}
+/*productos*/
+
+/*contacto*/
+.contacto {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	border: 1px solid red;
+
+}
+.titulo-contacto {
+	padding: 50px 0px;
+}
+.formu {
+	border: 5px solid red;
+	width: 100%;
+	padding: 50px 0px;
+} 
+form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+form > input {
+	padding: 20px;
+	width: 70%;
+	margin: 20px 0px;
+}
+button {
+	padding: 20px;
+	width: auto;
+	cursor: pointer;
+}
+/*contacto*/
+
+</style> 
+
+<!--NAVEGACION-->
+<div class="contenedor">
+	<div class="logo">
+		<img src="logo.jpeg">
+	</div>
+	<div class="links">
+		<a href="links">item</a>
+		<a href="links">item</a>
+		<a href="links">item</a>
+		<a href="links">item</a>
+		<a id="zl-url" class="zl-url" href="https://www.doctoralia.com.mx/ernesto-cardenas-gomez/medico-general/iztapalapa" rel="nofollow" data-zlw-doctor="ernesto-cardenas-gomez" data-zlw-type="big_with_calendar" data-zlw-opinion="false" data-zlw-hide-branding="true">Ernesto Cárdenas Gómez - Doctoralia.com.mx</a><script>!function($_x,_s,id){var js,fjs=$_x.getElementsByTagName(_s)[0];if(!$_x.getElementById(id)){js = $_x.createElement(_s);js.id = id;js.src = "//platform.docplanner.com/js/widget.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","zl-widget-s");</script>
+	</div>
+</div>
+<!--NAVEGACION-->
+
+<!--HEADER-->
+<div class="header">
+	<div class="text-header">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+		<a href="">link</a>
+	</div>
+</div>
+<!--HEADER-->
+
+<!--SECCION1-->
+<div class="secion1">
+	<div class="titulo">
+		<h1>TITULO</h1>
+	</div>
+	<div class="text-secion1">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+	</div>
+	<div class="link-text-secion1">
+		<a href="links">link</a>
+	</div>
+</div>
+<!--SECCION1-->
+
+<!--CARDS-->
+<div class="cards">
+	<div class="card-1">
+		<h1>
+			Visión
+		</h1>
+		<p>
+			Ser un modelo multidisciplinario de atención en salud para la prevención, diagnóstico y tratamiento de enfermedades mediante promoción de hábitos de alimentación y actividad física saludable
+		</p>
+	</div>
+	<div class="card-1">
+		<h1>
+			Mision
+		</h1>
+		<p>
+			Ofrecer el tratamiento nutricional óptimo para cada uno de los pacientes y acompañarlos en el logro de sus metas a corto, mediano y largo plazo para mejorar su estado de salud día con día, contribuyendo así a una mejor calidad de vida.
+		</p>
+	</div>
+	<div class="card-1">
+		<h1>
+			Objetivo
+		</h1>
+		<p>
+			Concientizar al paciente sobre el impacto de la alimentación en la Nutrición y su estado de salud.
+			<br>
+			<br>
+			Educar al paciente para que sea capaz de elegir los alimentos que le generen bienestar y no aquellos que mermen su estado de salud
+		</p>
+	</div>
+</div>
+<!--CARDS-->
+
+<!--PRODUCTOS-->
+<div class="productos">
+	<div class="produ-titulo">
+		<h1>
+			PRODUCTOS
+		</h1>
+	</div>
+	<div class="contenedor-productos">
+		<div class="produ">
+			<h1>
+				Lorem ipsum dolor sit amet
+			</h1>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+		<div class="produ">
+			<h1>
+				Lorem ipsum dolor sit amet
+			</h1>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+		<div class="produ">
+			<h1>
+				Lorem ipsum dolor sit amet
+			</h1>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+		<div class="produ">
+			<h1>
+				Lorem ipsum dolor sit amet
+			</h1>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+		
+	</div>
+
+	<div class="contenedor-productos-2">
+		<div class="produ">
+			<h1>
+				Lorem ipsum dolor sit amet
+			</h1>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+		<div class="produ">
+			<h1>
+				Lorem ipsum dolor sit amet
+			</h1>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+		
+		
+	</div>
+</div>
+<!--PRODUCTOS-->
+
+<!--CONTACTANOS-->
+<div class="contacto">
+	<div class="titulo-contacto">
+		<h1>
+			TITULO
+		</h1>
+	</div>
+	<div class="formu">
+		<form action="envio.php" method="post">
+			<input type="text" name="nombre" placeholder="nombre">
+			<input type="text" name="correo" placeholder="correo">
+			<input type="text" name="mensaje" placeholder="mensaje">
+			<button>Enviar</button>
+		</form>
+	</div>
+</div>
+<!--CONTACTANOS-->
+
+
+</body>
+</html>
